@@ -7,10 +7,11 @@
 #include <functional>
 #include <unistd.h>
 #include <string>
+#include "config_gui.h"
 
 using namespace std;
 
-namespace future_gui {
+namespace smartwin_gui {
 
 typedef struct status_bar
 {
@@ -105,11 +106,6 @@ typedef struct status_info
     time_t time_stamp;
 }status_info_t;
 
-#define STATUS_VIEW_WIDTH    320
-#define STATUS_VIEW_HIGHT    24
-#define STATUS_BAR_HIGHT     20
-
-#define STATUS_BAR_BG_COLOR  0x0000FF
 
 class status_ui {
 

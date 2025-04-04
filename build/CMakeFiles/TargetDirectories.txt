@@ -1,0 +1,7 @@
+/home/fengqi/pos/future_ws/smartwin_gui/build/CMakeFiles/smartwin_gui.dir
+/home/fengqi/pos/future_ws/smartwin_gui/build/CMakeFiles/edit_cache.dir
+/home/fengqi/pos/future_ws/smartwin_gui/build/CMakeFiles/rebuild_cache.dir
+/home/fengqi/pos/future_ws/smartwin_gui/build/CMakeFiles/list_install_components.dir
+/home/fengqi/pos/future_ws/smartwin_gui/build/CMakeFiles/install.dir
+/home/fengqi/pos/future_ws/smartwin_gui/build/CMakeFiles/install/local.dir
+/home/fengqi/pos/future_ws/smartwin_gui/build/CMakeFiles/install/strip.dir

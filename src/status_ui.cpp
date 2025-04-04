@@ -1,6 +1,6 @@
 #include "status_ui.h"
 
-namespace future_gui
+namespace smartwin_gui
 {
 
 static void update_status_timer_cb(lv_timer_t *timer)

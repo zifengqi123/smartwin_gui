@@ -1,0 +1,1 @@
+/usr/local/toolchain/linux64/bin/arm-openwrt-linux-gnueabi-g++ -fPIC -shared -Wl,-soname,libsmartwin_gui.so -o lib/libsmartwin_gui.so CMakeFiles/smartwin_gui.dir/src/status_ui.cpp.o CMakeFiles/smartwin_gui.dir/src/input_ui.cpp.o CMakeFiles/smartwin_gui.dir/src/notice_ui.cpp.o CMakeFiles/smartwin_gui.dir/src/menu_ui.cpp.o 

@@ -19,6 +19,11 @@
 /**
  * MENU define
  */
+
+
+#define STATUS_VIEW_WIDTH    320
+#define STATUS_BAR_HIGHT     20
+#define STATUS_BAR_BG_COLOR  0x0000FF
 #define STATUS_VIEW_HIGHT       (24)
 
 #define MENU_VIEW_WIDTH         (320)

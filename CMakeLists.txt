@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(future_gui)
+project(smartwin_gui)
 
 # Usage:
 # cmake -B build -S .
@@ -31,7 +31,7 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/../lvgl_v9.2/lv_port_linux/
     )
 
-add_library(future_gui SHARED 
+add_library(smartwin_gui SHARED 
     ${PROJECT_SOURCE_DIR}/src/status_ui.cpp
     ${PROJECT_SOURCE_DIR}/src/input_ui.cpp
     ${PROJECT_SOURCE_DIR}/src/notice_ui.cpp
@@ -44,7 +44,7 @@ install(DIRECTORY include
     FILES_MATCHING
     PATTERN "*.h")
 
-install(TARGETS future_gui
+install(TARGETS smartwin_gui
     ARCHIVE DESTINATION lib
 )
 
