@@ -159,7 +159,7 @@ void status_ui::battery_bar_addcharge()
     lv_obj_set_size(_battery_bar.charge, 8, _battery_bar.hight);
     lv_obj_align_to(_battery_bar.charge, _battery_bar.battflag, LV_ALIGN_OUT_RIGHT_MID, 4, 3);
     lv_obj_set_style_text_color(_battery_bar.charge, lv_color_hex(0xFFFFFF), 0);
-    lv_obj_set_style_text_font(_battery_bar.charge, &lv_font_montserrat_12, 0);
+    // lv_obj_set_style_text_font(_battery_bar.charge, &lv_font_montserrat_12, 0);
 
 }
 
@@ -225,7 +225,7 @@ void status_ui::battery_bar_init(lv_obj_t *parent, int x, int y, int width, int 
     _battery_bar.text = lv_obj_get_child(lv_obj_get_parent(_battery_bar.pad), -1);
     lv_obj_set_size(_battery_bar.text, _battery_bar.width, _battery_bar.hight - 6);
     lv_obj_set_style_text_align(_battery_bar.text, LV_TEXT_ALIGN_CENTER, 0);
-    lv_obj_set_style_text_font(_battery_bar.text, &lv_font_montserrat_12, 0);
+    // lv_obj_set_style_text_font(_battery_bar.text, &lv_font_montserrat_12, 0);
 
     battery_bar_addflag();
     battery_bar_addcharge();
@@ -325,7 +325,7 @@ void status_ui::print_bar_init(lv_obj_t *parent, int x, int y, int width, int hi
 
     lv_obj_set_size(_print_bar.text, 12, 12);
     lv_obj_align(_print_bar.text, LV_ALIGN_TOP_LEFT, _print_bar.x + 8, _print_bar.y + 6);
-    lv_obj_set_style_text_font(_print_bar.text, &lv_font_montserrat_14, 0);
+    // lv_obj_set_style_text_font(_print_bar.text, &lv_font_montserrat_14, 0);
     lv_obj_set_style_text_color(_print_bar.text, lv_color_hex(0xff0000), 0);
 }
 
@@ -511,7 +511,7 @@ void status_ui::timebar_init(lv_obj_t *parent, int x, int y, int width, int high
 	lv_obj_set_scrollbar_mode(_time_bar.label, LV_SCROLLBAR_MODE_OFF);
 
     lv_obj_set_style_text_color(_time_bar.label, lv_color_hex(0xFFFFFF), 0);
-    lv_obj_set_style_text_font(_time_bar.label, &lv_font_montserrat_14, 0);
+    // lv_obj_set_style_text_font(_time_bar.label, &lv_font_montserrat_14, 0);
 }
 
 void status_ui::timebar_del()
@@ -547,7 +547,7 @@ void status_ui::wifi_bar_init(lv_obj_t *parent, int x, int y, int width, int hig
 
     lv_obj_set_style_text_align(_wifi_bar.label, LV_TEXT_ALIGN_CENTER, 0);
     lv_obj_set_style_text_color(_wifi_bar.label, lv_color_hex(0xFFFFFF), 0);
-    lv_obj_set_style_text_font(_wifi_bar.label, &lv_font_montserrat_12, 0);
+    // lv_obj_set_style_text_font(_wifi_bar.label, &lv_font_montserrat_12, 0);
 }
 
 void status_ui::wifi_bar_del()
